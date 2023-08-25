@@ -1,29 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="style.css">
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  caption {
+    caption-side: top;
+    font-weight: bold;
+  }
+</style>
 </head>
 <body>
-	<thead><span class="main">Students Details</span></thead>
-	<table class="bro">
-		<tbody class="bro">
-			<th class="bro">NAME</th>
-			<th class="bro">AGE</th>
-			<th class="bro">BRANCH</th>
-			<tr>
-				<td class="bro">Shaw</td>
-				<td class="bro">20</td>
-				<td class="bro">CSE</td>
-			</tr>
-			<tr>
-				<td class="bro">Adi</td>
-				<td class="bro">21</td>
-				<td class="bro">ECE</td>
-			</tr>
-		</tbody>
-	</table>
+
+<table>
+  <caption>Student Details</caption>
+  <tr>
+    <th>NAME</th>
+    <th>AGE</th>
+    <th>BRANCH</th>
+  </tr>
+  <tr>
+    <td>John Doe</td>
+    <td>20</td>
+    <td>Computer Science</td>
+  </tr>
+  <tr>
+    <td>Jane Smith</td>
+    <td>21</td>
+    <td>Electrical Engineering</td>
+  </tr>
+  <tr>
+    <td>Michael Johnson</td>
+    <td>19</td>
+    <td>Mechanical Engineering</td>
+  </tr>
+</table>
+
 </body>
 </html>
